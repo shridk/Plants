@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="9c28140a9752dd10d27a797e6253af52" label="Plantipedia" max_length="40" name="x_snc_plants_db_plantipedia" type="collection">
+    <element label="Plantipedia" max_length="40" name="x_snc_plants_db_plantipedia" type="collection">
         <element label="Characteristics" max_length="40" name="characteristics" type="html"/>
         <element choice="1" label="Difficulty level" max_length="40" name="difficulty_level" type="choice">
             <choice>

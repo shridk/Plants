@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -15,7 +16,6 @@
         <name>Create watering task</name>
         <natlang/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <remote_trigger_id>7449e97e2fda9110a72c5aab2799b63e</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -29,12 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>573769ba2fda9110a72c5aab2799b6e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Create watering task</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_hub_flow_573769ba2fda9110a72c5aab2799b6e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:57:07</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=573769ba2fda9110a72c5aab2799b6e6"/>
@@ -154,6 +157,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create watering task">573769ba2fda9110a72c5aab2799b6e6</flow>
         <order>1</order>
@@ -206,6 +210,7 @@
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create watering task">573769ba2fda9110a72c5aab2799b6e6</flow>
         <order>3</order>
@@ -435,6 +440,7 @@
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create watering task">9449e97e2fda9110a72c5aab2799b60b</flow>
         <order>3</order>
@@ -496,6 +502,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create watering task">9449e97e2fda9110a72c5aab2799b60b</flow>
         <order>1</order>
@@ -596,9 +603,8 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9449e97e2fda9110a72c5aab2799b60b"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9449e97e2fda9110a72c5aab2799b60b"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9449e97e2fda9110a72c5aab2799b60b"/>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>573769ba2fda9110a72c5aab2799b6e6</sys_id>
         <latest_snapshot>9449e97e2fda9110a72c5aab2799b60b</latest_snapshot>
-        <compiler_build/>
     </sys_hub_flow>
 </record_update>

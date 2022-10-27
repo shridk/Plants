@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</compiler_build>
         <copied_from>573769ba2fda9110a72c5aab2799b6e6</copied_from>
         <copied_from_name>Create watering task</copied_from_name>
         <description/>
@@ -15,7 +16,6 @@
         <name>Create fertilizing task</name>
         <natlang/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <remote_trigger_id>618515ad876e51909145eb173cbb35e0</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7ee3192d876e51909145eb173cbb354e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Create fertilizing task</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_hub_flow_7ee3192d876e51909145eb173cbb354e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-20 19:50:29</sys_updated_on>
+        <sys_updated_on>2022-10-27 07:57:08</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=7ee3192d876e51909145eb173cbb354e"/>
@@ -73,7 +73,7 @@
         <name>Trigger:618515ad876e51909145eb173cbb35e0</name>
         <offset/>
         <offset_type>0</offset_type>
-        <run_as display_value="Rampriya S">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>6</run_dayofweek>
@@ -234,6 +234,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create fertilizing task">7ee3192d876e51909145eb173cbb354e</flow>
         <order>1</order>
@@ -543,6 +544,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create fertilizing task">d98515ad876e51909145eb173cbb35a2</flow>
         <order>1</order>
@@ -643,9 +645,8 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d98515ad876e51909145eb173cbb35a2"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d98515ad876e51909145eb173cbb35a2"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d98515ad876e51909145eb173cbb35a2"/>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>7ee3192d876e51909145eb173cbb354e</sys_id>
         <latest_snapshot>d98515ad876e51909145eb173cbb35a2</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

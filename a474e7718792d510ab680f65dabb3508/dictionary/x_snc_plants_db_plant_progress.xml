@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="2cf988db47aa11101f8ea946926d4388" label="Plant Progress" max_length="40" name="x_snc_plants_db_plant_progress" type="collection">
+    <element label="Plant Progress" max_length="40" name="x_snc_plants_db_plant_progress" type="collection">
         <element label="Color Observation" max_length="255" name="color" type="string_full_utf8"/>
         <element label="Dry Weight (grams)" max_length="20" name="dry_weight" type="decimal"/>
         <element label="First Cotyledon" max_length="40" name="first_cotyledon" type="boolean"/>

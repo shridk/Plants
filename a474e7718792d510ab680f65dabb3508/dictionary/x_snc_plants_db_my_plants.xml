@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="b7cc7d83472211101f8ea946926d43da" label="My Plants" max_length="40" name="x_snc_plants_db_my_plants" type="collection">
+    <element label="My Plants" max_length="40" name="x_snc_plants_db_my_plants" type="collection">
         <element label="Fertilize every (days)" max_length="40" name="fertilize_schedule" type="integer"/>
         <element label="Last Fertilized" max_length="40" name="last_fertilized" type="glide_date"/>
         <element label="Last Watered" max_length="40" name="last_watered" type="glide_date"/>
